@@ -32,6 +32,8 @@ Respeta los diferentes pensamientos e ideas.
 - Complementa con imágenes or websites las intervenciones verbales preparadas de más de 3 min, recuerda no extenderte más de 10 min, todas las presentaciones incluyendo preguntas son de 10 min, como máximo.
 
 ### Recordatorios
+- Para asistir debes completar el siguiente [form](https://forms.gle/cax1McDyF8jkYzST8)
+
 - Esta prohibido tomar fotos o videos durante el evento.
 
 - Deja el espacio en las condiciones que lo encontraste.
