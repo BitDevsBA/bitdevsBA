@@ -2,7 +2,7 @@
 title = "BitdevsBA Seminario Socratico #13"
 template = "post.html"
 [extra]
-meetup_id = "evt_rvk9RbqLFhRX27GH"
+meetup_url = "https://www.meetup.com/4opensource/events/315334663/?slug=4opensource&eventId=315334663"
 +++
 
 ### Cronograma
