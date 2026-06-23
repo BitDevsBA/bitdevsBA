@@ -4,10 +4,10 @@
         <h1 class="Post-title">{{ page.title }}</h1>
         <div class="Post-info">
             <span>{{ page.date }}</span>
-            {% if page.extra.meetup_id %}
+            {% if page.extra.meetup_url or page.extra.meetup_id %}
             <span>
                 <a
-                    href="{{ config.extra.meetup }}/{{ page.extra.meetup_id }}"
+                    href="{% if page.extra.meetup_url %}{{ page.extra.meetup_url }}{% else %}{{ config.extra.meetup }}/{{ page.extra.meetup_id }}{% endif %}"
                     target="_blank"
                     rel="noopener nofollow"
                 >
