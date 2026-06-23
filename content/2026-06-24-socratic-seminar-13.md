@@ -124,6 +124,7 @@ Un agradecimiento especial a nuestro sponsor **[Libreria de Satoshi](https://lib
 - [Zero Knowledge Ecash](https://x.com/januszg_/status/2061776771289170226)
 - [Cashu inventor proposes "unruggable mints"](https://xcancel.com/i/status/2063322203450384753)
 - [Bark now on Bitcoin mainnet](https://blog.second.tech/bark-now-on-bitcoin-mainnet/)
+- [Transport v2 — NIP-44 Direct Messaging (Mostro Protocol v2)](https://github.com/MostroP2P/mostro/blob/main/docs/TRANSPORT_V2_SPEC.md)
 
 
 ### Layer 2 / BitVM
@@ -141,5 +142,5 @@ Un agradecimiento especial a nuestro sponsor **[Libreria de Satoshi](https://lib
 ### Tools & Development
 
 - [Matching Hashes: Reproducing the Guix-built Bitcoin Core release binary with Nix](https://b10c.me/projects/027-bitcoind-gunix-match/)
-- [Transport v2 — NIP-44 Direct Messaging (Protocol v2)](https://github.com/MostroP2P/mostro/blob/main/docs/TRANSPORT_V2_SPEC.md)
+
 
