@@ -90,6 +90,7 @@ Un agradecimiento especial a nuestro sponsor **[Libreria de Satoshi](https://lib
 
 - [Vulnerability Disclosure: Assertion DoS in Core Lightning](https://delvingbitcoin.org/t/vulnerability-disclosure-assertion-dos-in-core-lightning/2507)
 - [Disclosure: PrivateBroadcast IP Address Leak (Bitcoin Core)](https://bitcoincore.org/en/2026/06/06/privatebroadcast-ip-leak/)
+- [Disclosure: CVE-2024-52911 (Bitcoin Core)](https://bitcoincore.org/en/2026/05/05/disclose-cve-2024-52911/)
 
 
 ### BIPs & Proposals — Post-Quantum
@@ -122,6 +123,7 @@ Un agradecimiento especial a nuestro sponsor **[Libreria de Satoshi](https://lib
 - [Arbed Out launches Sigbash, a smart contracting tool for bitcoin](https://x.com/arbedout/status/2057828460635017447)
 - [Zero Knowledge Ecash](https://x.com/januszg_/status/2061776771289170226)
 - [Cashu inventor proposes "unruggable mints"](https://xcancel.com/i/status/2063322203450384753)
+- [Bark now on Bitcoin mainnet](https://blog.second.tech/bark-now-on-bitcoin-mainnet/)
 
 
 ### Layer 2 / BitVM
@@ -139,4 +141,5 @@ Un agradecimiento especial a nuestro sponsor **[Libreria de Satoshi](https://lib
 ### Tools & Development
 
 - [Matching Hashes: Reproducing the Guix-built Bitcoin Core release binary with Nix](https://b10c.me/projects/027-bitcoind-gunix-match/)
+- [Transport v2 — NIP-44 Direct Messaging (Protocol v2)](https://github.com/MostroP2P/mostro/blob/main/docs/TRANSPORT_V2_SPEC.md)
 
