@@ -11,6 +11,23 @@
         />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
+        <script>
+            // Apply the saved theme before first paint to avoid a flash of the
+            // wrong colors. With no saved choice the CSS falls back to the OS
+            // preference via prefers-color-scheme.
+            (function () {
+                try {
+                    var stored = localStorage.getItem("theme");
+                    if (stored === "dark" || stored === "light") {
+                        document.documentElement.setAttribute(
+                            "data-theme",
+                            stored
+                        );
+                    }
+                } catch (e) {}
+            })();
+        </script>
+
         <link rel="stylesheet" href="/style.css" />
         <link
             href="https://fonts.googleapis.com/css?family=Source+Code+Pro"
@@ -33,6 +50,12 @@
                             rel="noopener nofollow"
                             >Apoyo</a
                         >
+                        <button
+                            class="Header-theme-toggle"
+                            type="button"
+                            aria-label="Cambiar tema"
+                            title="Cambiar tema"
+                        ></button>
                     </nav>
                 </div>
                 <div class="Header-border">
@@ -131,5 +154,50 @@
                 </div>
             </footer>
         </div>
+
+        <script>
+            (function () {
+                var root = document.documentElement;
+                var toggle = document.querySelector(".Header-theme-toggle");
+                if (!toggle) return;
+
+                var media = window.matchMedia("(prefers-color-scheme: dark)");
+
+                function currentTheme() {
+                    var attr = root.getAttribute("data-theme");
+                    if (attr === "dark" || attr === "light") return attr;
+                    return media.matches ? "dark" : "light";
+                }
+
+                function render() {
+                    var isDark = currentTheme() === "dark";
+                    toggle.textContent = isDark ? "☀" : "☾";
+                    toggle.setAttribute(
+                        "aria-label",
+                        isDark ? "Activar modo claro" : "Activar modo oscuro"
+                    );
+                }
+
+                toggle.addEventListener("click", function () {
+                    var next = currentTheme() === "dark" ? "light" : "dark";
+                    root.setAttribute("data-theme", next);
+                    try {
+                        localStorage.setItem("theme", next);
+                    } catch (e) {}
+                    render();
+                });
+
+                // Track the OS preference while the user has not chosen manually.
+                media.addEventListener("change", function () {
+                    var stored = null;
+                    try {
+                        stored = localStorage.getItem("theme");
+                    } catch (e) {}
+                    if (stored !== "dark" && stored !== "light") render();
+                });
+
+                render();
+            })();
+        </script>
     </body>
 </html>

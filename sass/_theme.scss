@@ -1,0 +1,33 @@
+// Theme tokens exposed as CSS custom properties so the palette can switch at
+// runtime. SCSS `$` variables (see style.scss) remain the single source of
+// truth for the values and are interpolated into the custom properties below.
+
+@mixin dark-theme {
+  --background-color: #{$dark-background-color};
+  --font-color: #{$dark-font-color};
+  color-scheme: dark;
+}
+
+:root {
+  --primary-color: #{$primary-color};
+  --primary-color-hover: #{rgba($primary-color, 0.8)};
+  --background-color: #{$background-color};
+  --font-color: #{$font-color};
+  color-scheme: light;
+}
+
+// Follow the operating system preference, unless the user forced light mode.
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    @include dark-theme;
+  }
+}
+
+// Explicit user choice always wins over the system preference.
+:root[data-theme='dark'] {
+  @include dark-theme;
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+}
