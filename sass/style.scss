@@ -7,12 +7,17 @@ $primary-color: #FF9900;
 $background-color: #FFF;
 $font-color: #333;
 
+// Dark theme colors
+$dark-background-color: #121212;
+$dark-font-color: #e6e6e6;
+
 // Screen size for responsiveness
 $small-screen: 400px;
 $mid-screen: 768px;
 $large-screen: 1024px;
 
 @import './reset';
+@import './theme';
 @import './global';
 @import './header';
 @import './footer';

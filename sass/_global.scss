@@ -2,8 +2,9 @@ html, body {
   font-family: $body-font;
   font-size: 16px;
   line-height: 1.5;
-  background-color: $background-color;
-  color: $font-color;
+  background-color: var(--background-color);
+  color: var(--font-color);
+  transition: background-color 0.2s ease, color 0.2s ease;
 
   @media (max-width: $large-screen) {
     font-size: 14px;
@@ -25,11 +26,11 @@ html, body {
 }
 
 a {
-  color: $primary-color;
+  color: var(--primary-color);
   text-decoration: none;
 
   &:hover {
-    color: rgba($primary-color, 0.8);
+    color: var(--primary-color-hover);
   }
 }
 
