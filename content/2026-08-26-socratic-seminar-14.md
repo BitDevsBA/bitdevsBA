@@ -1,5 +1,5 @@
 +++
-title = "BitdevsBA Seminario Socratico #13"
+title = "BitdevsBA Seminario Socratico #14"
 template = "post.html"
 [extra]
 meetup_url = "https://www.meetup.com/4opensource/events/315334663/?slug=4opensource&eventId=315334663"
