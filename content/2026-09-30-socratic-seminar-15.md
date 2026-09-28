@@ -3,6 +3,7 @@ title = "BitdevsBA Seminario Socratico #15"
 template = "post.html"
 [extra]
 meetup_id = "evt_8SYBAubhAESqZC8k"
+registration_url = "https://crm.lacrypta.ar/o/bitdevs-ba/events/bitdevs-15"
 +++
 
 ### Cronograma
@@ -25,6 +26,8 @@ Este evento se llevará a cabo en **La Crypta**:
 Villanueva 1367, Buenos Aires, Argentina.
 Gracias por otorgar el lugar.
 Si quieres que BitDevs sea en tu espacio:  recruit@b4os.dev
+
+**Para asistir es necesario registrarse en [La Crypta](https://crm.lacrypta.ar/o/bitdevs-ba/events/bitdevs-15).**
 
 ### Sugerencias
 
