@@ -15,6 +15,17 @@
                 </a>
             </span>
             {% endif %}
+            {% if page.extra.registration_url %}
+            <span>
+                <a
+                    href="{{ page.extra.registration_url }}"
+                    target="_blank"
+                    rel="noopener nofollow"
+                >
+                    Registration
+                </a>
+            </span>
+            {% endif %}
         </div>
         {% if page.extra.youtube_id %}
         <iframe
