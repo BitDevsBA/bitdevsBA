@@ -125,6 +125,7 @@ Un agradecimiento especial a nuestro sponsor **[Libreria de Satoshi](https://lib
  
 ### Privacidad y minería
  
+- [Invalid Bitcoin blocks: full PoW, consensus invalid](https://deadmanoz.xyz/posts/2026/invalid-blocks)
 - [Shielded Bitcoin: Private Transfers on the Bitcoin L1](https://allocinit.notion.site/Shielded-Bitcoin-Private-Transfers-on-Bitcoin-L1-3e436974087f80f586acf2462bc547a5) — [Paper](https://www.allocinit.xyz/uploads/shielded-bitcoin.pdf)
 - [Babilonia: probabilistic coinjoin and covert betting](https://delvingbitcoin.org/t/babilonia-probabilistic-coinjoin-and-covert-betting/2704) — [Paper v2](https://github.com/AdamISZ/babilonia-paper/blob/master/babiloniav2.pdf)
 - [Vardiff controllers that strand slowing miners](https://delvingbitcoin.org/t/research-a-clockless-vardiff-strands-a-slowing-miner/2718)
