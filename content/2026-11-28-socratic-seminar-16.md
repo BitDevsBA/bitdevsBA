@@ -43,13 +43,12 @@ Source https://bitdevs.org/running-a-great-socratic-seminar/
  
 ### Anuncios
  
-Un agradecimiento especial a nuestro sponsor **[Libreria de Satoshi](https://libreriadesatoshi.com/)**.
+Un agradecimiento especial a nuestro sponsor **[ISMOS](https://ismos.xyz/cursos?utm_source=bitdevsba&utm_medium=banner&utm_campaign=socratic-seminar-16)**.
  
 ### Oportunidades educativas o laborales
 
 - [Bitcoiner Jobs](https://bitcoinerjobs.com/)
 - [Summer of Bitcoin](https://www.summerofbitcoin.org/)
-- [Librería de Satoshi](https://libreriadesatoshi.com/careers)
 - [B4OS](https://b4os.dev)
 
 ### Estadísticas de la Red
