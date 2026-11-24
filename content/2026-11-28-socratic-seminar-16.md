@@ -3,6 +3,9 @@ title = "BitdevsBA Seminario Socratico #16"
 template = "post.html"
 [extra]
 meetup_id = "evt_nHFKpYNeAxpVQq1f"
+banner_image = "/ismos-banner.png"
+banner_url = "https://ismos.xyz/cursos?utm_source=bitdevsba&utm_medium=banner&utm_campaign=socratic-seminar-16"
+banner_alt = "ISMOS: Ya debates el protocolo. Aprende a construir con él. Ver cursos"
 +++
 
 ### Cronograma
@@ -19,7 +22,7 @@ meetup_id = "evt_nHFKpYNeAxpVQq1f"
 - Nostr: npub17xlw230hgsz8yktgshnlrq670yd4uay998h4rzn7kh74elft6wwqxmre4a
 
 ### Lugar
-Este evento se llevará a cabo en **Cafe.te***:
+Este evento se llevará a cabo en **Cafe.te**:
 Thames 937, Buenos Aires, Argentina. 
 [maps](https://www.google.com/maps/place/Cafe.Te/@-34.592497,-58.4379381,17z/data=!3m1!4b1!4m6!3m5!1s0x95bcb50b7d27abb3:0xa5f11ff38ad4765a!8m2!3d-34.592497!4d-58.4379381!16s%2Fg%2F11s14z3rj5?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D)
  
@@ -43,13 +46,12 @@ Source https://bitdevs.org/running-a-great-socratic-seminar/
  
 ### Anuncios
  
-Un agradecimiento especial a nuestro sponsor **[Libreria de Satoshi](https://libreriadesatoshi.com/)**.
+Un agradecimiento especial a nuestro sponsor **[ISMOS](https://ismos.xyz)**.
  
 ### Oportunidades educativas o laborales
 
 - [Bitcoiner Jobs](https://bitcoinerjobs.com/)
 - [Summer of Bitcoin](https://www.summerofbitcoin.org/)
-- [Librería de Satoshi](https://libreriadesatoshi.com/careers)
 - [B4OS](https://b4os.dev)
 
 ### Estadísticas de la Red

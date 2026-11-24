@@ -24,4 +24,37 @@
       }
     }
   }
+
+  &-body {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+
+    @media (max-width: $mid-screen) {
+      display: block;
+    }
+  }
+
+  &-body &-content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  &-banner {
+    flex: 0 0 160px;
+    position: sticky;
+    top: 2rem;
+
+    @media (max-width: $mid-screen) {
+      position: static;
+      width: 160px;
+      margin: 2rem auto 0;
+    }
+
+    img {
+      display: block;
+      width: 160px;
+      height: auto;
+    }
+  }
 }
