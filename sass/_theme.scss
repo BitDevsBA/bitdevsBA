@@ -31,3 +31,27 @@
 :root[data-theme='light'] {
   color-scheme: light;
 }
+
+.theme-logo--dark {
+  display: none;
+}
+
+@mixin dark-logos {
+  .theme-logo--light {
+    display: none;
+  }
+
+  .theme-logo--dark {
+    display: inline;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    @include dark-logos;
+  }
+}
+
+:root[data-theme='dark'] {
+  @include dark-logos;
+}
