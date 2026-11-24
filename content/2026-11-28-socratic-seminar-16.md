@@ -2,16 +2,16 @@
 title = "BitdevsBA Seminario Socratico #16"
 template = "post.html"
 [extra]
-meetup_id = "evt_zwMaCSfhyiMWovDv"
+meetup_id = "evt_nHFKpYNeAxpVQq1f"
 +++
 
 ### Cronograma
 
-15:00hrs Puertas abiertas y socialización 
+15:45hrs Puertas abiertas y socialización 
 
-16:00hrs Seminario Socrático
+16:30hrs Seminario Socrático
 
-18:00hrs Cierre y Networking
+18:30hrs Cierre y Networking
 
 ### Redes 
 - [Twitter](https://x.com/BitdevsBA)
