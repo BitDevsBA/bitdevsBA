@@ -3,6 +3,9 @@ title = "BitdevsBA Seminario Socratico #16"
 template = "post.html"
 [extra]
 meetup_id = "evt_nHFKpYNeAxpVQq1f"
+banner_image = "/ismos-banner.png"
+banner_url = "https://ismos.xyz/cursos?utm_source=bitdevsba&utm_medium=banner&utm_campaign=socratic-seminar-16"
+banner_alt = "ISMOS: Ya debates el protocolo. Aprende a construir con él. Ver cursos"
 +++
 
 ### Cronograma
@@ -43,7 +46,7 @@ Source https://bitdevs.org/running-a-great-socratic-seminar/
  
 ### Anuncios
  
-Un agradecimiento especial a nuestro sponsor **[ISMOS](https://ismos.xyz/cursos?utm_source=bitdevsba&utm_medium=banner&utm_campaign=socratic-seminar-16)**.
+Un agradecimiento especial a nuestro sponsor **[ISMOS](https://ismos.xyz)**.
  
 ### Oportunidades educativas o laborales
 

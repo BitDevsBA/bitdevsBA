@@ -38,7 +38,25 @@
         ></iframe>
         {% endif %}
 
+        {% if page.extra.banner_image %}
+        <div class="Post-body">
+            <div class="Post-content">{{ page.content | safe }}</div>
+            <aside class="Post-banner">
+                <a
+                    href="{{ page.extra.banner_url }}"
+                    target="_blank"
+                    rel="noopener sponsored"
+                >
+                    <img
+                        src="{{ page.extra.banner_image }}"
+                        alt="{{ page.extra.banner_alt | default(value='Sponsor') }}"
+                    />
+                </a>
+            </aside>
+        </div>
+        {% else %}
         <div class="Post-content">{{ page.content | safe }}</div>
+        {% endif %}
     </div>
 </section>
 {% endblock content %}
